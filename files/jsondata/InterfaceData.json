@@ -81,7 +81,7 @@
       "impl": []
     },
     "AudioDecoder": {
-      "inh": "",
+      "inh": "EventTarget",
       "impl": []
     },
     "AudioDestinationNode": {
@@ -89,7 +89,7 @@
       "impl": []
     },
     "AudioEncoder": {
-      "inh": "",
+      "inh": "EventTarget",
       "impl": []
     },
     "AudioListener": {
@@ -122,6 +122,10 @@
     },
     "AudioScheduledSourceNode": {
       "inh": "AudioNode",
+      "impl": []
+    },
+    "AudioSinkInfo": {
+      "inh": "",
       "impl": []
     },
     "AudioTrack": {
@@ -316,6 +320,10 @@
       "inh": "Event",
       "impl": []
     },
+    "CaptureController": {
+      "inh": "",
+      "impl": []
+    },
     "CaretPosition": {
       "inh": "",
       "impl": []
@@ -404,7 +412,7 @@
       "inh": "ExtendableEvent",
       "impl": []
     },
-    "ContentVisibilityAutoStateChangedEvent": {
+    "ContentVisibilityAutoStateChangeEvent": {
       "inh": "Event",
       "impl": []
     },
@@ -462,6 +470,10 @@
     },
     "CSSColor": {
       "inh": "CSSColorValue",
+      "impl": []
+    },
+    "CSSColorProfileRule": {
+      "inh": "CSSRule",
       "impl": []
     },
     "CSSColorValue": {
@@ -592,10 +604,6 @@
       "inh": "CSSRule",
       "impl": []
     },
-    "CSSNestingRule": {
-      "inh": "CSSRule",
-      "impl": []
-    },
     "CSSNumericArray": {
       "inh": "",
       "impl": []
@@ -676,6 +684,10 @@
       "inh": "CSSTransformComponent",
       "impl": []
     },
+    "CSSScopeRule": {
+      "inh": "CSSGroupingRule",
+      "impl": []
+    },
     "CSSSkew": {
       "inh": "CSSTransformComponent",
       "impl": []
@@ -734,10 +746,6 @@
     },
     "CSSVariableReferenceValue": {
       "inh": "",
-      "impl": []
-    },
-    "CSSViewportRule": {
-      "inh": "CSSRule",
       "impl": []
     },
     "CustomElementRegistry": {
@@ -814,6 +822,14 @@
     },
     "DocumentFragment": {
       "inh": "Node",
+      "impl": []
+    },
+    "DocumentPictureInPicture": {
+      "inh": "EventTarget",
+      "impl": []
+    },
+    "DocumentPictureInPictureEvent": {
+      "inh": "Event",
       "impl": []
     },
     "DocumentTimeline": {
@@ -936,10 +952,6 @@
       "inh": "",
       "impl": []
     },
-    "EXT_clip_cull_distance": {
-      "inh": "",
-      "impl": []
-    },
     "EXT_color_buffer_float": {
       "inh": "",
       "impl": []
@@ -1016,6 +1028,14 @@
       "inh": "Credential",
       "impl": []
     },
+    "Fence": {
+      "inh": "",
+      "impl": []
+    },
+    "FencedFrameConfig": {
+      "inh": "",
+      "impl": []
+    },
     "FetchEvent": {
       "inh": "ExtendableEvent",
       "impl": []
@@ -1065,6 +1085,10 @@
       "impl": []
     },
     "FileSystemHandle": {
+      "inh": "",
+      "impl": []
+    },
+    "FileSystemSyncAccessHandle": {
       "inh": "",
       "impl": []
     },
@@ -1264,6 +1288,10 @@
       "inh": "GPUError",
       "impl": []
     },
+    "GPUPipelineError": {
+      "inh": "DOMException",
+      "impl": []
+    },
     "GPUPipelineLayout": {
       "inh": "",
       "impl": []
@@ -1448,6 +1476,10 @@
       "inh": "HTMLElement",
       "impl": []
     },
+    "HTMLFencedFrameElement": {
+      "inh": "HTMLElement",
+      "impl": []
+    },
     "HTMLFieldSetElement": {
       "inh": "HTMLElement",
       "impl": []
@@ -1537,6 +1569,10 @@
       "impl": []
     },
     "HTMLMeterElement": {
+      "inh": "HTMLElement",
+      "impl": []
+    },
+    "HTMLModelElement": {
       "inh": "HTMLElement",
       "impl": []
     },
@@ -1724,6 +1760,10 @@
       "inh": "Credential",
       "impl": []
     },
+    "IdentityProvider": {
+      "inh": "",
+      "impl": []
+    },
     "IdleDeadline": {
       "inh": "",
       "impl": []
@@ -1788,7 +1828,19 @@
       "inh": "",
       "impl": []
     },
-    "InteractionCounts": {
+    "InterestGroupBiddingScriptRunnerGlobalScope": {
+      "inh": "InterestGroupScriptRunnerGlobalScope",
+      "impl": []
+    },
+    "InterestGroupReportingScriptRunnerGlobalScope": {
+      "inh": "InterestGroupScriptRunnerGlobalScope",
+      "impl": []
+    },
+    "InterestGroupScoringScriptRunnerGlobalScope": {
+      "inh": "InterestGroupScriptRunnerGlobalScope",
+      "impl": []
+    },
+    "InterestGroupScriptRunnerGlobalScope": {
       "inh": "",
       "impl": []
     },
@@ -2064,6 +2116,10 @@
       "inh": "",
       "impl": []
     },
+    "MLActivation": {
+      "inh": "",
+      "impl": []
+    },
     "MLCommandEncoder": {
       "inh": "",
       "impl": []
@@ -2081,10 +2137,6 @@
       "impl": []
     },
     "MLOperand": {
-      "inh": "",
-      "impl": []
-    },
-    "MLOperator": {
       "inh": "",
       "impl": []
     },
@@ -2120,35 +2172,11 @@
       "inh": "",
       "impl": []
     },
-    "NavigateEvent": {
-      "inh": "Event",
-      "impl": []
-    },
-    "Navigation": {
-      "inh": "EventTarget",
-      "impl": []
-    },
-    "NavigationCurrentEntryChangeEvent": {
-      "inh": "Event",
-      "impl": []
-    },
-    "NavigationDestination": {
-      "inh": "",
-      "impl": []
-    },
     "NavigationEvent": {
       "inh": "UIEvent",
       "impl": []
     },
-    "NavigationHistoryEntry": {
-      "inh": "EventTarget",
-      "impl": []
-    },
     "NavigationPreloadManager": {
-      "inh": "",
-      "impl": []
-    },
-    "NavigationTransition": {
       "inh": "",
       "impl": []
     },
@@ -2297,10 +2325,6 @@
       "impl": []
     },
     "Path2D": {
-      "inh": "",
-      "impl": []
-    },
-    "PaymentInstruments": {
       "inh": "",
       "impl": []
     },
@@ -2481,6 +2505,10 @@
       "impl": []
     },
     "PressureObserver": {
+      "inh": "",
+      "impl": []
+    },
+    "PressureRecord": {
       "inh": "",
       "impl": []
     },
@@ -2821,7 +2849,7 @@
       "impl": []
     },
     "SFrameTransform": {
-      "inh": "",
+      "inh": "EventTarget",
       "impl": []
     },
     "SFrameTransformErrorEvent": {
@@ -2834,6 +2862,30 @@
     },
     "ShadowRoot": {
       "inh": "DocumentFragment",
+      "impl": []
+    },
+    "SharedStorage": {
+      "inh": "",
+      "impl": []
+    },
+    "SharedStorageOperation": {
+      "inh": "",
+      "impl": []
+    },
+    "SharedStorageRunOperation": {
+      "inh": "SharedStorageOperation",
+      "impl": []
+    },
+    "SharedStorageSelectURLOperation": {
+      "inh": "SharedStorageOperation",
+      "impl": []
+    },
+    "SharedStorageWorklet": {
+      "inh": "Worklet",
+      "impl": []
+    },
+    "SharedStorageWorkletGlobalScope": {
+      "inh": "WorkletGlobalScope",
       "impl": []
     },
     "SharedWorker": {
@@ -2913,6 +2965,14 @@
       "impl": []
     },
     "Storage": {
+      "inh": "",
+      "impl": []
+    },
+    "StorageBucket": {
+      "inh": "",
+      "impl": []
+    },
+    "StorageBucketManager": {
       "inh": "",
       "impl": []
     },
@@ -3360,6 +3420,14 @@
       "inh": "AbortSignal",
       "impl": []
     },
+    "TCPServerSocket": {
+      "inh": "",
+      "impl": []
+    },
+    "TCPSocket": {
+      "inh": "",
+      "impl": []
+    },
     "Text": {
       "inh": "CharacterData",
       "impl": []
@@ -3424,6 +3492,10 @@
       "inh": "",
       "impl": []
     },
+    "ToggleEvent": {
+      "inh": "Event",
+      "impl": []
+    },
     "Touch": {
       "inh": "",
       "impl": []
@@ -3473,6 +3545,10 @@
       "impl": []
     },
     "TrustedTypePolicyFactory": {
+      "inh": "",
+      "impl": []
+    },
+    "UDPSocket": {
       "inh": "",
       "impl": []
     },
@@ -3552,6 +3628,10 @@
       "inh": "PermissionStatus",
       "impl": []
     },
+    "UserActivation": {
+      "inh": "",
+      "impl": []
+    },
     "ValidityState": {
       "inh": "",
       "impl": []
@@ -3565,11 +3645,11 @@
       "impl": []
     },
     "VideoDecoder": {
-      "inh": "",
+      "inh": "EventTarget",
       "impl": []
     },
     "VideoEncoder": {
-      "inh": "",
+      "inh": "EventTarget",
       "impl": []
     },
     "VideoFrame": {
@@ -3596,8 +3676,16 @@
       "inh": "ScrollTimeline",
       "impl": []
     },
+    "ViewTransition": {
+      "inh": "",
+      "impl": []
+    },
     "VirtualKeyboard": {
       "inh": "EventTarget",
+      "impl": []
+    },
+    "VisibilityStateEntry": {
+      "inh": "PerformanceEntry",
       "impl": []
     },
     "VisualViewport": {
@@ -3625,6 +3713,10 @@
       "impl": []
     },
     "WEBGL_blend_equation_advanced_coherent": {
+      "inh": "",
+      "impl": []
+    },
+    "WEBGL_clip_cull_distance": {
       "inh": "",
       "impl": []
     },
@@ -3685,6 +3777,10 @@
       "impl": []
     },
     "WEBGL_multi_draw_instanced_base_vertex_base_instance": {
+      "inh": "",
+      "impl": []
+    },
+    "WEBGL_provoking_vertex": {
       "inh": "",
       "impl": []
     },
@@ -3796,6 +3892,10 @@
       "inh": "WritableStream",
       "impl": []
     },
+    "WGSLLanguageFeatures": {
+      "inh": "",
+      "impl": []
+    },
     "WheelEvent": {
       "inh": "MouseEvent",
       "impl": []
@@ -3814,6 +3914,10 @@
     },
     "WindowControlsOverlayGeometryChangeEvent": {
       "inh": "Event",
+      "impl": []
+    },
+    "WindowSharedStorage": {
+      "inh": "SharedStorage",
       "impl": []
     },
     "Worker": {
@@ -3850,6 +3954,10 @@
     },
     "WorkletGroupEffect": {
       "inh": "",
+      "impl": []
+    },
+    "WorkletSharedStorage": {
+      "inh": "SharedStorage",
       "impl": []
     },
     "WritableStream": {
@@ -3906,6 +4014,10 @@
     },
     "XRBoundedReferenceSpace": {
       "inh": "XRReferenceSpace",
+      "impl": []
+    },
+    "XRCamera": {
+      "inh": "",
       "impl": []
     },
     "XRCompositionLayer": {
@@ -3989,6 +4101,14 @@
       "impl": []
     },
     "XRMediaBinding": {
+      "inh": "",
+      "impl": []
+    },
+    "XRMesh": {
+      "inh": "",
+      "impl": []
+    },
+    "XRMeshSet": {
       "inh": "",
       "impl": []
     },
